@@ -46623,3 +46623,31 @@ Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
 )
 
+entry(
+    index = 7046,
+    label = "C/H3/Cs\TwoNonDe;O_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (5.58E+05, 'cm^3/(mol*s)'),
+        n = 2.08,
+        alpha = 0,
+        E0 = (0.3755, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Experiment combined with group additivity method""",
+    longDesc = """
+Rate Constants for OH with Selected Large Alkanes: Shock-Tube Measurements and an Improved Group Scheme
+R. Sivaramakrishnan, J.V. Michael, J. Phys. Chem. A 113 (17) (2009) 5047–5060.
+DOI: 10.1021/jp810987u
+
+It's hard to decide which rank it belongs to. 
+It's not a typical experiment or quantum chemistry calculation study.
+It's added here because otherwise the reaction 'mch + oh <=> cychexch2 + h2o' will be estimated from backward reaction.
+Although the backward reaction is indeed claimed to be exact match. 
+And there are different level calculations (rank 2-5) concerning the backward reaction.
+
+Added by Peng Zhang 2016-04-21
+""",
+)
+
