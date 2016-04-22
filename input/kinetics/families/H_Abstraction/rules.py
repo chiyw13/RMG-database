@@ -46651,3 +46651,192 @@ Added by Peng Zhang 2016-04-21
 """,
 )
 
+entry(
+    index = 7047,
+    label = "C_methane;OOC",
+    kinetics = ArrheniusEP(
+        A = (3.03E+00, 'cm^3/(mol*s)'),
+        n = 3.75,
+        alpha = 0,
+        E0 = (21.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + CH4 = CH3OOH + CH3
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
+entry(
+    index = 7048,
+    label = "C/H3/Cs\H3;OOC",
+    kinetics = ArrheniusEP(
+        A = (6.73E+00, 'cm^3/(mol*s)'),
+        n = 3.55,
+        alpha = 0,
+        E0 = (16.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + C2H6 = CH3OOH + C2H5
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
+entry(
+    index = 7049,
+    label = "C/H3/Cs\H2\Cs;OOC",
+    kinetics = ArrheniusEP(
+        A = (1.12E+00, 'cm^3/(mol*s)'),
+        n = 3.72,
+        alpha = 0,
+        E0 = (16.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + C3H8 = CH3OOH + nC3H7
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
+entry(
+    index = 7050,
+    label = "C/H3/Cs\TwoNonDe;OOC",
+    kinetics = ArrheniusEP(
+        A = (7.36E-1, 'cm^3/(mol*s)'),
+        n = 3.75,
+        alpha = 0,
+        E0 = (16.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + iC4H10 = CH3OOH + iC4H9(pri)
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
+entry(
+    index = 7051,
+    label = "C/H2/Cs\H3/Cs\H3;OOC",
+    kinetics = ArrheniusEP(
+        A = (4.07E1, 'cm^3/(mol*s)'),
+        n = 3.37,
+        alpha = 0,
+        E0 = (13.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + C3H8 = CH3OOH + iC3H7
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
+entry(
+    index = 7052,
+    label = "C/H2/NonDeC;OOC",
+    kinetics = ArrheniusEP(
+        A = (2.63E1, 'cm^3/(mol*s)'),
+        n = 3.49,
+        alpha = 0,
+        E0 = (13.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + nC4H10 = CH3OOH + 2C4H9
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
+entry(
+    index = 7053,
+    label = "C/H/Cs3;OOC",
+    kinetics = ArrheniusEP(
+        A = (2.62E2, 'cm^3/(mol*s)'),
+        n = 3.12,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""CBS-QB3""",
+    longDesc = """
+Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
+H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
+DOI: 10.1016/j.proci.2006.08.091
+
+Reaction: CH3O2 + iC4H10 = CH3OOH + iC4H9(tert)
+CBS-QB3 level of theory. 
+Geometries and frequencies were obtained with the B3LYP hybrid functional and the CBSB7 basis set.
+Assume the harmonic-oscillator-rigid-rotor.
+
+Added by Peng Zhang 2016-04-22
+""",
+)
+
