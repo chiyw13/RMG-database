@@ -46636,7 +46636,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Experiment combined with group additivity method""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate Constants for OH with Selected Large Alkanes: Shock-Tube Measurements and an Improved Group Scheme
 R. Sivaramakrishnan, J.V. Michael, J. Phys. Chem. A 113 (17) (2009) 5047–5060.
 DOI: 10.1021/jp810987u
@@ -46664,7 +46665,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
@@ -46691,7 +46693,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
@@ -46718,7 +46721,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
@@ -46745,7 +46749,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
@@ -46772,7 +46777,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
@@ -46799,7 +46805,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
@@ -46826,7 +46833,8 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3""",
-    longDesc = """
+    longDesc = 
+u"""
 Rate constants for the H abstraction from alkanes (R–H) by R'O2 radicals: A systematic study on the impact of R and R′
 H.H. Carstensen, A.M. Dean, O. Deutschmann, Proceedings of the Combustion Institute 31 (2007) 149–157.
 DOI: 10.1016/j.proci.2006.08.091
