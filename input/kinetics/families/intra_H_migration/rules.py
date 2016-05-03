@@ -5849,3 +5849,178 @@ resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so gener
 So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
 """,
 )
+
+entry(
+    index = 1062,
+    label = "R5H_SSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_Cs2",
+    kinetics = ArrheniusEP(
+        A = (3.174e+08, 's^-1'),
+        n = 1.15,
+        alpha = 0,
+        E0 = (15.37, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Refered from rate rule R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_Cs2""",
+    longDesc = 
+u"""
+#4
+Refered from rate rule R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_Cs2
+Previously, there's no rate rule exactly match for forward or backward of the reaction CC1CCCC(O[O])C1 <=> C[C]1CCCC(OO)C1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
+
+entry(
+    index = 1063,
+    label = "R5H_SSSS_OOCs(Cs/Cs);O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    kinetics = ArrheniusEP(
+        A = (8.94e+06, 's^-1'),
+        n = 1.26,
+        alpha = 0,
+        E0 = (18.17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Refered from rate rule R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_H/NonDeC""",
+    longDesc = 
+u"""
+#5
+Refered from rate rule R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_H/NonDeC
+Previously, there's no rate rule exactly match for forward or backward of the reaction [O]OCC1CCCCC1 <=> OOCC1[CH]CCCC1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
+
+entry(
+    index = 1064,
+    label = "R5H_SSSS_OO(Cs/Cs/Cs)Cs;O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    kinetics = ArrheniusEP(
+        A = (3.38e+10, 's^-1'),
+        n = 0.21,
+        alpha = 0,
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""refered from rate rule R5H_SSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_H/NonDeC.""",
+    longDesc = 
+u"""
+#6
+Refered from rate rule R5H_SSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_H/NonDeC.
+Previously, there's no rate rule exactly match for forward or backward of the reaction CC(O[O])1CCCCC1 <=> CC(OO)1C[CH]CCC1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
+
+entry(
+    index = 1065,
+    label = "R6H_SSSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_2H",
+    kinetics = ArrheniusEP(
+        A = (369000, 's^-1'),
+        n = 1.52,
+        alpha = 0,
+        E0 = (20.05, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""refered from rate rule R6H_SSSSS_OO;O_rad_out;Cs_H_out_2H""",
+    longDesc = 
+u"""
+#7
+Refered from rate rule R6H_SSSSS_OO;O_rad_out;Cs_H_out_2H.
+Previously, there's no rate rule exactly match for forward or backward of the reaction CC1CC(O[O])CCC1 <=> [CH2]C1CC(OO)CCC1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
+
+entry(
+    index = 1066,
+    label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs);O_rad_out;Cs_H_out_Cs2",
+    kinetics = ArrheniusEP(
+        A = (1.48e+06, 's^-1'),
+        n = 1.22,
+        alpha = 0,
+        E0 = (13.84, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""refered from rate rule R6H_SSSSS_OO;O_rad_out;Cs_H_out_Cs2""",
+    longDesc = 
+u"""
+#8
+Refered from rate rule R6H_SSSSS_OO;O_rad_out;Cs_H_out_Cs2.
+Previously, there's no rate rule exactly match for forward or backward of the reaction CC1CCC(O[O])CC1 <=> C[C]1CCC(OO)CC1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
+
+entry(
+    index = 1067,
+    label = "R6H_SSSSS_OOCCC(Cs/Cs);O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    kinetics = ArrheniusEP(
+        A = (1.62e+06, 's^-1'),
+        n = 1.22,
+        alpha = 0,
+        E0 = (16.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""refered from rate rule R6H_SSSSS_OO;O_rad_out;Cs_H_out_H/NonDeC""",
+    longDesc = 
+u"""
+#9
+Refered from rate rule R6H_SSSSS_OO;O_rad_out;Cs_H_out_H/NonDeC.
+Previously, there's no rate rule exactly match for forward or backward of the reaction [O]OCC1CCCCC1 <=> OOCC1C[CH]CCC1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
+
+entry(
+    index = 1068,
+    label = "R7H_OOCCCC(Cs/Cs);O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    kinetics = ArrheniusEP(
+        A = (1.37e+06, 's^-1'),
+        n = 0.99,
+        alpha = 0,
+        E0 = (18.17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""refered from rate rule R7H_OOCs4;O_rad_out;Cs_H_out_H/NonDeC""",
+    longDesc = 
+u"""
+#10
+Refered from rate rule R7H_OOCs4;O_rad_out;Cs_H_out_H/NonDeC.
+Previously, there's no rate rule exactly match for forward or backward of the reaction [O]OCC1CCCCC1 <=> OOCC1CC[CH]CC1
+In the mechanism generation process, the rate of this reaction is estimated from the backward side,
+resulting in estimating using template (RnH;Y_rad_out;XH_out), which is so general that the result is absurd.
+So here we added a rate rule exactly match the forward reaction to solve this problem temporally.
+Added by Peng Zhang 2016-05-03
+""",
+)
