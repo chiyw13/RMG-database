@@ -1229,6 +1229,968 @@ u"""
 """,
 )
 
+entry(
+    index = 42,
+    label = "1_OH",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    R u0 {2,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 43,
+    label = "1_OH_triplesub_oop",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    [CO,Os] u0 {2,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   [CO,Os] u0 {6,S}
+13   H u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 44,
+    label = "1_OH_2_formyl_3_formyl_4p",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   Cd u0 {6,S} {16,D} {17,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   O u0 {12,D}
+17   H u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 45,
+    label = "1_OH_2_formyl_3_formyl_4_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   Cd u0 {4,S} {18,D} {19,S}
+11   R u0 {5,S}
+12   Cd u0 {6,S} {16,D} {17,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   O u0 {12,D}
+17   H u0 {12,S}
+18   O u0 {10,D}
+19   H u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 46,
+    label = "1_OH_2_formyl_3_formyl_4_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   Os u0 {4,S} {18,S}
+11   R u0 {5,S}
+12   Cd u0 {6,S} {16,D} {17,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   O u0 {12,D}
+17   H u0 {12,S}
+18   [H,Cs] u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 47,
+    label = "1_OH_2_formyl_3_Os_4p",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {16,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   [H,Cs] u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 48,
+    label = "1_OH_2_formyl_3_Os_4_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   Cd u0 {4,S} {17,D} {18,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {16,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   [H,Cs] u0 {12,S}
+17   O u0 {10,D}
+18   H u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 49,
+    label = "1_OH_2_formyl_3_Os_4_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   O u0 {4,S} {17,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {16,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   [H,Cs] u0 {12,S}
+17   [H,Cs] u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 50,
+    label = "1_OH_2_Os_3_Os_4p",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {15,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+15   [H,Cs] u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 51,
+    label = "1_OH_2_Os_3_Os_4_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   Cd u0 {4,S} {16,D} {17,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {15,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+15   [H,Cs] u0 {12,S}
+16   O u0 {10,D}
+17   H u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 52,
+    label = "1_OH_2_Os_3_Os_4_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   O u0 {4,S} {16,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {15,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+15   [H,Cs] u0 {12,S}
+16   [H,Cs] u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 53,
+    label = "1_OH_doublesub_oo",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    [CO,Os] u0 {2,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   [CO,Os] u0 {6,S}
+13   H u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 54,
+    label = "1_OH_23oo_2_Os_3_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {15,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+15   [H,Cs] u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 55,
+    label = "1_OH_23oo_2_formyl_3_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   Cd u0 {6,S} {16,D} {17,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   O u0 {12,D}
+17   H u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 56,
+    label = "1_OH_23oo_2_formyl_3_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   O u0 {6,S} {16,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   [H,Cs] u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 57,
+    label = "1_OH_doublesub_op",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    [CO,Os] u0 {2,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 58,
+    label = "1_OH_23op_2_formyl_3p",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 59,
+    label = "1_OH_23op_2_formyl_3_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   Cd u0 {4,S} {16,D} {17,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   O u0 {10,D}
+17   H u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 60,
+    label = "1_OH_23op_2_formyl_3_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   O u0 {4,S} {16,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+16   [H,Cs] u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 61,
+    label = "1_OH_23op_2_Os_3p",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 62,
+    label = "1_OH_23op_2_Os_3_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   Cd u0 {4,S} {15,D} {16,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+15   O u0 {10,D}
+16   H u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 63,
+    label = "1_OH_23op_2_Os_3_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   O u0 {4,S} {15,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+15   [H,Cs] u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 64,
+    label = "1_OH_singlesub_ortho",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    [CO,Os] u0 {2,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 65,
+    label = "1_OH_2_ortho_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O  u0 {1,S} {13,S}
+8    Cd u0 {2,S} {14,D} {15,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   O u0 {8,D}
+15   H u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 66,
+    label = "1_OH_2_ortho_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O  u0 {1,S} {13,S}
+8    O u0 {2,S} {14,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 67,
+    label = "1_OH_singlesub_para",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    R u0 {2,S}
+9    R u0 {3,S}
+10   [CO,Os] u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 68,
+    label = "1_OH_2_para_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    R u0 {2,S}
+9    R u0 {3,S}
+10   Cd u0 {4,S} {14,D} {15,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   O u0 {10,D}
+15   H u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 69,
+    label = "1_OH_2_para_Os",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    O u0 {1,S} {13,S}
+8    R u0 {2,S}
+9    R u0 {3,S}
+10   O u0 {4,S} {14,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   [H,Cs] u0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
 L1: R
@@ -1259,13 +2221,41 @@ L1: R
                 L5: 1_vinyl_2_Os
         L3: 1_Cs
             L4: 1_Cs_doubleortho
-                L5: 1_Cs_2_formyl_3CsCd
+                L5: 1_Cs_2_formyl_3CsCO
                     L6: 1_Cs_2_formyl_3_formyl
                     L6: 1_Cs_2_formyl_3_Cs
                 L5: 1_Cs_2_Cs_3_Cs
             L4: 1_Cs_singleortho
                 L5: 1_Cs_2_formyl
                 L5: 1_Cs_2_Cs
+        L3: 1_OH
+            L4: 1_OH_triplesub_oop
+                L5: 1_OH_2_formyl_3_formyl_4p
+                    L6: 1_OH_2_formyl_3_formyl_4_formyl
+                    L6: 1_OH_2_formyl_3_formyl_4_Os
+                L5: 1_OH_2_formyl_3_Os_4p
+                    L6: 1_OH_2_formyl_3_Os_4_formyl
+                    L6: 1_OH_2_formyl_3_Os_4_Os
+                L5: 1_OH_2_Os_3_Os_4p
+                    L6: 1_OH_2_Os_3_Os_4_formyl
+                    L6: 1_OH_2_Os_3_Os_4_Os
+            L4: 1_OH_doublesub_oo
+                L5: 1_OH_23oo_2_formyl_3_formyl
+                L5: 1_OH_23oo_2_formyl_3_Os
+                L5: 1_OH_23oo_2_Os_3_Os
+            L4: 1_OH_doublesub_op
+                L5: 1_OH_23op_2_formyl_3p
+                    L6: 1_OH_23op_2_formyl_3_formyl
+                    L6: 1_OH_23op_2_formyl_3_Os
+                L5: 1_OH_23op_2_Os_3p
+                    L6: 1_OH_23op_2_Os_3_formyl
+                    L6: 1_OH_23op_2_Os_3_Os
+            L4: 1_OH_singlesub_ortho
+                L5: 1_OH_2_ortho_formyl
+                L5: 1_OH_2_ortho_Os
+            L4: 1_OH_singlesub_para
+                L5: 1_OH_2_para_formyl
+                L5: 1_OH_2_para_Os
 """
 )
 
