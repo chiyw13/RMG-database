@@ -231,7 +231,7 @@ u"""
 
 entry(
     index = 15,
-    label = "doubleortho",
+    label = "1_vinyl_doubleortho",
     group = 
 """
 1  * Cb u0 {2,B} {6,B} {7,S}
@@ -266,7 +266,7 @@ u"""
 
 entry(
     index = 16,
-    label = "singleortho",
+    label = "1_vinyl_singleortho",
     group = 
 """
 1  * Cb u0 {2,B} {6,B} {7,S}
@@ -901,6 +901,334 @@ u"""
 """,
 )
 
+entry(
+    index = 33,
+    label = "1_Cs",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    R u0 {2,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 34,
+    label = "1_Cs_doubleortho",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    [Cs,CO] u0 {2,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   [Cs,CO] u0 {6,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 35,
+    label = "1_Cs_2_formyl_3CsCO",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    Cd u0 {2,S} {16,D} {17,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   [Cs,CO] u0 {6,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+16   O u0 {8,D}
+17   H u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 36,
+    label = "1_Cs_2_formyl_3_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    Cd u0 {2,S} {16,D} {17,S}
+9    R  u0 {3,S}
+10   R  u0 {4,S}
+11   R  u0 {5,S}
+12   Cd u0 {6,S} {18,D} {19,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+16   O u0 {8,D}
+17   H u0 {8,S}
+18   O u0 {12,D}
+19   H u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 37,
+    label = "1_Cs_2_formyl_3_Cs",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    Cd u0 {2,S} {16,D} {17,S}
+9    R  u0 {3,S}
+10   R  u0 {4,S}
+11   R  u0 {5,S}
+12   Cs u0 {6,S} {18,S} {19,S} {20,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+16   O u0 {8,D}
+17   H u0 {8,S}
+18   H u0 {12,S}
+19   H u0 {12,S}
+20   [H,Cs] u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 38,
+    label = "1_Cs_2_Cs_3_Cs",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    Cs u0 {2,S} {16,S} {17,S} {18,S}
+9    R  u0 {3,S}
+10   R  u0 {4,S}
+11   R  u0 {5,S}
+12   Cs u0 {6,S} {19,S} {20,S} {21,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+16   H u0 {8,S}
+17   H u0 {8,S}
+18   [H,Cs] u0 {8,S}
+19   H u0 {12,S}
+20   H u0 {12,S}
+21   [H,Cs] u0 {12,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 39,
+    label = "1_Cs_singleortho",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    [Cs,CO] u0 {2,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 40,
+    label = "1_Cs_2_formyl",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    Cd u0 {2,S} {16,D} {17,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+16   O u0 {8,D}
+17   H u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 41,
+    label = "1_Cs_2_Cs",
+    group = 
+"""
+1  * Cb u0 {2,B} {6,B} {7,S}
+2    Cb u0 {1,B} {3,B} {8,S}
+3    Cb u0 {2,B} {4,B} {9,S}
+4    Cb u0 {3,B} {5,B} {10,S}
+5    Cb u0 {4,B} {6,B} {11,S}
+6    Cb u0 {5,B} {1,B} {12,S}
+7    Cs u0 {1,S} {13,S} {14,S} {15,S}
+8    Cs u0 {2,S} {16,S} {17,S} {18,S}
+9    R u0 {3,S}
+10   R u0 {4,S}
+11   R u0 {5,S}
+12   R u0 {6,S}
+13   H u0 {7,S}
+14   H u0 {7,S}
+15   [H,Cs] u0 {7,S}
+16   H u0 {8,S}
+17   H u0 {8,S}
+18   [H,Cs] u0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
 L1: R
@@ -911,7 +1239,7 @@ L1: R
         L3: ketene_2C-H
     L2: monocyclicaromatics
         L3: 1_vinyl
-            L4: doubleortho
+            L4: 1_vinyl_doubleortho
                 L5: 1_vinyl_2_formyl_3CsCdOs
                     L6: 1_vinyl_2_formyl_3_formyl
                     L6: 1_vinyl_2_formyl_3_vinyl
@@ -924,11 +1252,20 @@ L1: R
                 L5: 1_vinyl_2_Cs_3CsOs
                     L6: 1_vinyl_2_Cs_3_Cs
                     L6: 1_vinyl_2_Cs_3_Os
-            L4: singleortho
+            L4: 1_vinyl_singleortho
                 L5: 1_vinyl_2_formyl
                 L5: 1_vinyl_2_vinyl
                 L5: 1_vinyl_2_Cs
-                L5: 1_vinyl_2_Os             
+                L5: 1_vinyl_2_Os
+        L3: 1_Cs
+            L4: 1_Cs_doubleortho
+                L5: 1_Cs_2_formyl_3CsCd
+                    L6: 1_Cs_2_formyl_3_formyl
+                    L6: 1_Cs_2_formyl_3_Cs
+                L5: 1_Cs_2_Cs_3_Cs
+            L4: 1_Cs_singleortho
+                L5: 1_Cs_2_formyl
+                L5: 1_Cs_2_Cs
 """
 )
 
