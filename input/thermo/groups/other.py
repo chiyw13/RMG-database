@@ -261,9 +261,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.10, 0.76, 0.50, 0.31, 0.05, -0.05, -0.12],'cal/(mol*K)'),
+        H298 = (1.94,'kcal/mol'),
+        S298 = (-0.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -300,9 +300,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.15, 1.03, 0.87, 0.75, 0.53, 0.41, 0.23],'cal/(mol*K)'),
+        H298 = (1.59,'kcal/mol'),
+        S298 = (-1.06,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -339,9 +339,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.62, 0.76, 1.00, 1.20, 1.15, 0.86, 0.14],'cal/(mol*K)'),
+        H298 = (5.69,'kcal/mol'),
+        S298 = (-1.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -380,9 +380,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.86, 0.76, 0.75, 0.75, 0.60, 0.41, 0.01],'cal/(mol*K)'),
+        H298 = (3.81,'kcal/mol'),
+        S298 = (-0.90,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -417,9 +417,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.67, 1.72, 1.67, 1.60, 1.27, 0.93, 0.31],'cal/(mol*K)'),
+        H298 = (3.94,'kcal/mol'),
+        S298 = (-1.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -454,9 +454,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.91, 1.03, 1.12, 1.20, 1.08, 0.86, 0.36],'cal/(mol*K)'),
+        H298 = (3.47,'kcal/mol'),
+        S298 = (-1.41,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -493,9 +493,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.91, 1.72, 1.42, 1.16, 0.72, 0.48, 0.18],'cal/(mol*K)'),
+        H298 = (2.07,'kcal/mol'),
+        S298 = (-1.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -528,9 +528,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([2.72, 2.68, 2.34, 2.01, 1.39, 1.00, 0.48],'cal/(mol*K)'),
+        H298 = (2.20,'kcal/mol'),
+        S298 = (-2.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -563,9 +563,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.96, 1.98, 1.79, 1.60, 1.20, 0.93, 0.53],'cal/(mol*K)'),
+        H298 = (1.72,'kcal/mol'),
+        S298 = (-2.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -600,9 +600,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.31, 0.38, 0.50, 0.60, 0.57, 0.43, 0.07],'cal/(mol*K)'),
+        H298 = (2.84,'kcal/mol'),
+        S298 = (-0.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -639,9 +639,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.55, 0.38, 0.25, 0.16, 0.02, -0.02, -0.06],'cal/(mol*K)'),
+        H298 = (0.97,'kcal/mol'),
+        S298 = (-0.27,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -674,9 +674,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.36, 1.34, 1.17, 1.00, 0.69, 0.50, 0.24],'cal/(mol*K)'),
+        H298 = (1.10,'kcal/mol'),
+        S298 = (-1.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -709,9 +709,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.60, 0.65, 0.62, 0.60, 0.50, 0.43, 0.29],'cal/(mol*K)'),
+        H298 = (0.62,'kcal/mol'),
+        S298 = (-0.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -781,9 +781,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.91, 1.43, 0.96, 0.53, 0.00, -0.29, -0.43],'cal/(mol*K)'),
+        H298 = (3.87,'kcal/mol'),
+        S298 = (-1.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -820,9 +820,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.35, 1.06, 0.79, 0.56, 0.27, 0.10, -0.04],'cal/(mol*K)'),
+        H298 = (2.44,'kcal/mol'),
+        S298 = (-1.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -860,9 +860,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.79, 0.69, 0.62, 0.60, 0.55, 0.48, 0.36],'cal/(mol*K)'),
+        H298 = (1.00,'kcal/mol'),
+        S298 = (-1.58,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -896,9 +896,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.96, 0.72, 0.48, 0.26, 0.00, -0.14, -0.22],'cal/(mol*K)'),
+        H298 = (1.94,'kcal/mol'),
+        S298 = (-0.57,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -933,9 +933,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.39, 0.35, 0.31, 0.30, 0.27, 0.24, 0.18],'cal/(mol*K)'),
+        H298 = (0.50,'kcal/mol'),
+        S298 = (-0.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1645,9 +1645,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.20, -0.76, -1.22, -1.40, -1.33, -1.16, -0.73],'cal/(mol*K)'),
+        H298 = (4.39,'kcal/mol'),
+        S298 = (2.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1690,9 +1690,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.38, -1.05, -1.20, -1.15, -0.84, -0.60, -0.17],'cal/(mol*K)'),
+        H298 = (2.41,'kcal/mol'),
+        S298 = (1.67,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1735,9 +1735,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.42, -0.29, -0.04, 0.13, 0.18, 0.07, -0.16],'cal/(mol*K)'),
+        H298 = (4.52,'kcal/mol'),
+        S298 = (1.00,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1778,9 +1778,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-1.00, -0.57, -0.01, 0.38, 0.67, 0.63, 0.41],'cal/(mol*K)'),
+        H298 = (2.55,'kcal/mol'),
+        S298 = (0.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1821,9 +1821,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-1.04, 0.19, 1.15, 1.66, 1.68, 1.30, 0.42],'cal/(mol*K)'),
+        H298 = (4.65,'kcal/mol'),
+        S298 = (-0.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1862,9 +1862,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-1.63, -0.10, 1.17, 1.91, 2.17, 1.86, 0.98],'cal/(mol*K)'),
+        H298 = (2.68,'kcal/mol'),
+        S298 = (-1.00,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1905,9 +1905,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.00, -0.81, -1.12, -1.20, -1.05, -0.88, -0.53],'cal/(mol*K)'),
+        H298 = (3.51,'kcal/mol'),
+        S298 = (1.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1946,9 +1946,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.62, -0.33, 0.06, 0.33, 0.45, 0.35, 0.05],'cal/(mol*K)'),
+        H298 = (3.64,'kcal/mol'),
+        S298 = (0.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -1985,9 +1985,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-1.24, 0.14, 1.24, 1.86, 1.96, 1.58, 0.62],'cal/(mol*K)'),
+        H298 = (3.78,'kcal/mol'),
+        S298 = (-0.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2028,9 +2028,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.20, -0.36, -0.66, -0.80, -0.80, -0.72, -0.47],'cal/(mol*K)'),
+        H298 = (2.63,'kcal/mol'),
+        S298 = (1.41,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2069,9 +2069,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.38, -0.65, -0.63, -0.55, -0.31, -0.16, 0.10],'cal/(mol*K)'),
+        H298 = (0.66,'kcal/mol'),
+        S298 = (0.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2110,9 +2110,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.42, 0.12, 0.53, 0.73, 0.71, 0.51, 0.11],'cal/(mol*K)'),
+        H298 = (2.76,'kcal/mol'),
+        S298 = (0.07,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2149,9 +2149,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-1.00, -0.17, 0.55, 0.98, 1.20, 1.08, 0.67],'cal/(mol*K)'),
+        H298 = (0.79,'kcal/mol'),
+        S298 = (-0.60,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2188,9 +2188,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.00, -0.41, -0.56, -0.60, -0.53, -0.44, -0.26],'cal/(mol*K)'),
+        H298 = (1.76,'kcal/mol'),
+        S298 = (0.93,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2225,9 +2225,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.62, 0.07, 0.62, 0.93, 0.98, 0.79, 0.31],'cal/(mol*K)'),
+        H298 = (1.89,'kcal/mol'),
+        S298 = (-0.41,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2264,9 +2264,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.20, 0.05, -0.10, -0.20, -0.27, -0.27, -0.20],'cal/(mol*K)'),
+        H298 = (0.87,'kcal/mol'),
+        S298 = (0.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2301,9 +2301,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-0.38, -0.24, -0.07, 0.05, 0.22, 0.29, 0.36],'cal/(mol*K)'),
+        H298 = (-1.10,'kcal/mol'),
+        S298 = (-0.19,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2377,9 +2377,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([1.03, 0.81, 0.62, 0.44, 0.01, -0.39, -0.90],'cal/(mol*K)'),
+        H298 = (7.37,'kcal/mol'),
+        S298 = (1.46,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2418,9 +2418,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.81, 0.65, 0.50, 0.36, 0.00, -0.36, -0.79],'cal/(mol*K)'),
+        H298 = (6.19,'kcal/mol'),
+        S298 = (1.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2459,9 +2459,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.82, 0.69, 0.56, 0.43, 0.06, -0.31, -0.80],'cal/(mol*K)'),
+        H298 = (6.80,'kcal/mol'),
+        S298 = (1.45,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2500,9 +2500,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.82, 0.61, 0.43, 0.27, -0.04, -0.30, -0.60],'cal/(mol*K)'),
+        H298 = (4.85,'kcal/mol'),
+        S298 = (0.69,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2539,9 +2539,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.61, 0.53, 0.44, 0.35, 0.05, -0.27, -0.69],'cal/(mol*K)'),
+        H298 = (5.62,'kcal/mol'),
+        S298 = (1.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2578,9 +2578,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.62, 0.57, 0.50, 0.42, 0.11, -0.23, -0.71],'cal/(mol*K)'),
+        H298 = (6.23,'kcal/mol'),
+        S298 = (1.43,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2617,9 +2617,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.61, 0.44, 0.31, 0.19, -0.05, -0.26, -0.49],'cal/(mol*K)'),
+        H298 = (3.67,'kcal/mol'),
+        S298 = (0.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2656,9 +2656,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.62, 0.49, 0.37, 0.26, 0.01, -0.22, -0.50],'cal/(mol*K)'),
+        H298 = (4.28,'kcal/mol'),
+        S298 = (0.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2695,9 +2695,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.62, 0.49, 0.37, 0.26, 0.01, -0.22, -0.50],'cal/(mol*K)'),
+        H298 = (4.28,'kcal/mol'),
+        S298 = (0.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2734,9 +2734,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.62, 0.41, 0.24, 0.11, -0.08, -0.20, -0.30],'cal/(mol*K)'),
+        H298 = (2.33,'kcal/mol'),
+        S298 = (-0.07,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2771,9 +2771,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.41, 0.41, 0.38, 0.33, 0.10, -0.19, -0.60],'cal/(mol*K)'),
+        H298 = (5.04,'kcal/mol'),
+        S298 = (1.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2808,9 +2808,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.41, 0.32, 0.25, 0.18, 0.00, -0.18, -0.39],'cal/(mol*K)'),
+        H298 = (3.10,'kcal/mol'),
+        S298 = (0.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2845,9 +2845,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.41, 0.32, 0.25, 0.18, 0.00, -0.18, -0.39],'cal/(mol*K)'),
+        H298 = (3.10,'kcal/mol'),
+        S298 = (0.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2882,9 +2882,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.42, 0.37, 0.31, 0.25, 0.06, -0.13, -0.41],'cal/(mol*K)'),
+        H298 = (3.70,'kcal/mol'),
+        S298 = (0.67,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2919,9 +2919,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.41, 0.24, 0.12, 0.02, -0.10, -0.17, -0.19],'cal/(mol*K)'),
+        H298 = (1.15,'kcal/mol'),
+        S298 = (0.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2956,9 +2956,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.42, 0.29, 0.18, 0.10, -0.04, -0.12, -0.20],'cal/(mol*K)'),
+        H298 = (1.76,'kcal/mol'),
+        S298 = (-0.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -2991,9 +2991,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.20, 0.20, 0.19, 0.17, 0.05, -0.10, -0.30],'cal/(mol*K)'),
+        H298 = (2.52,'kcal/mol'),
+        S298 = (0.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -3026,9 +3026,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.20, 0.12, 0.06, 0.01, -0.05, -0.08, -0.10],'cal/(mol*K)'),
+        H298 = (0.57,'kcal/mol'),
+        S298 = (0.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
@@ -3061,9 +3061,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([0.22, 0.17, 0.12, 0.08, 0.01, -0.04, -0.11],'cal/(mol*K)'),
+        H298 = (1.18,'kcal/mol'),
+        S298 = (-0.10,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NNI from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
     longDesc = 
