@@ -443,3 +443,34 @@ Invalid k(E) values computed for path reaction "C(=[CH])[O-][N+]#N(6454) <=> c1c
 """,
 )
 
+entry(
+    label = "CCC=C(O)OC",
+    group =
+"""
+1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+3  C u0 p0 c0 {6,S} {13,S} {14,S} {15,S}
+4  C u0 p0 c0 {1,S} {5,D} {16,S}
+5  C u0 p0 c0 {4,D} {6,S} {7,S}
+6  O u0 p2 c0 {3,S} {5,S}
+7  O u0 p2 c0 {5,S} {17,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+20170411 chiyw added. Since I don't expect the intra-molecular hydrogen shift reaction
+happened to the methyl butanoate. And I can't find an approriate rate for this reaction.
+""",
+)
+
+

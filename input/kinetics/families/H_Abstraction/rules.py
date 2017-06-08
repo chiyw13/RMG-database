@@ -46629,3 +46629,193 @@ T. Ingham, R.W. Walker, R.E. Woolford
 Proc. Combust. Inst., 25 (1994), pp. 767–774
 """,
 )
+
+u"""
+20170411, chiyw added three rate rules for C5H9O2+HO2 reactions:
+origin rate rule is [Orad_O_H;C_rad/H2/Cs\H2\Cs|Cs#O], only can find [Orad_O_H; C_rad/H2/Cs] for it
+[Orad_O_H;C_rad/H2/O]
+[Orad_O_H;C_rad/H/CO/Cs]
+"""
+entry(
+    index = 7047,
+    label = "Orad_O_H;C_rad/H2/Cs",
+    kinetics = ArrheniusEP(
+        A = (7.76741e+1, 'm^3/(mol*s)'),
+        n = 1.11735,
+        alpha = 0,
+        E0 = (-5.55908e+3, 'J/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""User-generated average""",
+    longDesc =
+u"""
+Average of 13 results:
+1. FFCM1(-)
+2. Nitrogen_Glarborg_Zhang_et_al
+3. JetSurF0.2
+4. Glarborg/C3
+5. Glarborg/highP
+6. Glarborg/C2
+7. Nitrogen_Glarborg_Gimenez_et_al
+8. Dooley/methylformate
+9. Dooley/methylformate_all_N2bathgas
+10. Dooley/methylformate_all_ARHEbathgas
+11. Baulch, D.L., 1992 http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:39
+12. Tsang, W., 1986 http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:38
+13. Taylor, J.E., 1973 http://kinetics.nist.gov/kinetics/Detail?id=1973TAY/KUL455-468:3
+""",
+)
+
+entry(
+    index = 7048,
+    label = "Orad_O_H;C_rad/H2/O",
+    kinetics = ArrheniusEP(
+        A = (6.07681e+7, 'm^3/(mol*s)'),
+        n = -0.61402,
+        alpha = 0,
+        E0 = (4.45168e+3, 'J/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""User-generated average""",
+    longDesc =
+u"""
+Average of 2 results:
+1. Dooley/methylformate_all_N2bathgas
+2. Dooley/methylformate_all_ARHEbathgas
+""",
+)
+
+entry(
+    index = 7049,
+    label = "Orad_O_H;C_rad/H/CO/Cs",
+    kinetics = ArrheniusEP(
+        A = (3.79962e+7, 'm^3/(mol*s)'),
+        n = -0.44522,
+        alpha = 0,
+        E0 = (4.26198e+3, 'J/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""User-generated average""",
+    longDesc =
+u"""
+Average of 2 results:
+1. Dooley/methylformate_all_N2bathgas
+2. Dooley/methylformate_all_ARHEbathgas
+""",
+)
+u"""
+20170517 chiyw added these five reaction rate rules for the H abstraction reactions of methyl butanoate
+"""
+
+entry(
+    index = 7050,
+    label = "C/H2/COCs;H_rad",
+    kinetics = ArrheniusEP(
+        A = (1.73e+1, 'cm^3/(mol*s)'),
+        n = 3.73,
+        alpha = 0,
+        E0 = (1.513, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Come from literature""",
+    longDesc =
+u"""
+Come from this paper:
+T. Tan, X. Yang, Y. Ju, E.A. Carter, Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate, Phys. Chem. Chem. Phys. 18 (2016) 4594-4607.
+This reaction: MP+H=MP2J+H2, I think the template for this reaction should be [C/H2/COCs;H_rad] 
+""",
+)
+
+entry(
+    index = 7051,
+    label = "C/H3/Cs\H2\Cs;H_rad",
+    kinetics = ArrheniusEP(
+        A = (1.11e+6, 'cm^3/(mol*s)'),
+        n = 2.53,
+        alpha = 0,
+        E0 = (8.272, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Come from literature""",
+    longDesc =
+u"""
+Come from this paper:
+T. Tan, X. Yang, Y. Ju, E.A. Carter, Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate, Phys. Chem. Chem. Phys. 18 (2016) 4594-4607.
+This reaction: MP+H=MP3J+H2, I think the template for this reaction should be [C/H3/Cs;H_rad]
+""",
+)
+
+entry(
+    index = 7052,
+    label = "C/H2/COCs;O_atom_triplet",
+    kinetics = ArrheniusEP(
+        A = (1.86e+1, 'cm^3/(mol*s)'),
+        n = 3.71,
+        alpha = 0,
+        E0 = (1.840, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Come from literature""",
+    longDesc =
+u"""
+Come from this paper:
+T. Tan, X. Yang, Y. Ju, E.A. Carter, Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate, Phys. Chem. Chem. Phys. 18 (2016) 4594-4607.
+This reaction: MP+O=MP2J+OH, I think the template for this reaction should be [C/H2/COCs;O_atom_triplet]
+""",
+)
+
+entry(
+    index = 7053,
+    label = "C/H3/Cs\H2\Cs;O_pri_rad",
+    kinetics = ArrheniusEP(
+        A = (1.40e+1, 'cm^3/(mol*s)'),
+        n = 3.69,
+        alpha = 0,
+        E0 = (-0.693, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Come from literature""",
+    longDesc =
+u"""
+Come from this paper:
+T. Tan, X. Yang, Y. Ju, E.A. Carter, Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate, Phys. Chem. Chem. Phys. 18 (2016) 4594-4607.
+This reaction: MP+OH=MP3J+H2O, I think the template for this reaction should be [C/H3/Cs;O_pri_rad]
+""",
+)
+
+entry(
+    index = 7054,
+    label = "C/H2/COCs;Orad_O_H",
+    kinetics = ArrheniusEP(
+        A = (2.68e-7, 'cm^3/(mol*s)'),
+        n = 5.60,
+        alpha = 0,
+        E0 = (9.878, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Come from literature""",
+    longDesc =
+u"""
+Come from this paper:
+T. Tan, X. Yang, Y. Ju, E.A. Carter, Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate, Phys. Chem. Chem. Phys. 18 (2016) 4594-4607.
+This reaction: MP+HO2=MP2J+H2O2, I think the template for this reaction should be [C/H2/COCs; Orad_O_H]
+But RMG always gave the reverse reaction rate since the Rank for reverse reaction rate rule are 2, and the reverse reaction is exergonic.
+""",
+)
+
